@@ -1,0 +1,109 @@
+/* Page.css */
+
+body{
+  background: #eceae9;
+}
+
+.input-details{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container {
+  background-color: white;
+  border-radius: 30px;
+  max-width: 700px;
+  margin: 60px auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 30px;
+}
+  
+.heading {
+  color: #514f4f;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  display: inline-block; 
+  width: calc(50% - 10px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; 
+                }
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000; /* Black background color */
+  color: #fff;
+  cursor: pointer;
+  }
+  
+.button:hover {
+  background-color: #333; /* Darker shade on hover */
+}
+  
+.subheading {
+  margin-bottom: 10px;
+  color: #514f4f;
+}
+  
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+  
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+  
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+  
+.actionButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #000; /* Black background color */
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+  
+.actionButton:hover {
+  color: #fff;
+  background-color: #333; /* Darker shade on hover */
+}
+
+@media (max-width: 300px) {
+  .input-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  input{
+    width: auto;
+  }
+}
